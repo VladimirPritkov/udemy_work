@@ -1,0 +1,106 @@
+body {
+  background: rgb(55, 55, 130);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  width: 1000px;
+  background: #676f6e;
+}
+
+.site-name {
+  width: 200px;
+  height: 60px;
+  margin: 30px 0 30px 30px;
+  background-image: url("fff.jpg");
+}
+
+.little-menu {
+  display: flex;
+  margin-right: 10px;
+
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px 0 0;
+  border: solid 1px black;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: blue;
+}
+
+.container {
+  display: block;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+nav {
+  display: flex;
+  margin: 30px auto;
+  width: 1000px;
+}
+
+.cell {
+  width: 190px;
+  margin: auto;
+  text-align: center;
+  background: rgb(24, 26, 25);
+}
+
+.fast-news {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 1000px
+}
+
+.news {
+  width: 300px;
+  text-align: center;
+  background: #fff;
+}
+
+.content {
+  display: flex;
+  width: 1000px;
+  background: #676f6e;
+  margin-top: 30px;
+}
+
+.left-content {
+  flex: 1;
+  background: #676f6e;
+}
+
+.middle-content {
+  flex: 3;
+  background: #454948;
+}
+
+.right-content {
+  flex: 1;
+  background: #676f6e;
+}
+
+footer {
+  width: 1000px;
+  margin: 30px auto;
+  background: grey;
+}
